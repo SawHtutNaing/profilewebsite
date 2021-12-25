@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,900&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width:0;
+  }
+
+body{
+ height: 300vh;
+}
+
+.site-logo{
+    width: 150px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+
+.home{
+    background-image: url(../../vendor/img/bgshpe.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50%;
+}
+
+.about-text{
+    background-image: url(../../vendor/img/bg2.svg);
+    background-size: 100%;
+}
+
+.about{
+    background-color: #7e76f910;
+}
+
+.services{
+    background-image: url(../../vendor/img/bg2.svg);
+    background-size: 100%;
+
+}
+
+.card{
+    border-radius: 35px !important;
+    border: none !important;
+    
+}
+
+.card.h{
+    height: 420px;
+}
+
+.card-des{
+    height: 150px;
+}
+
+.about-card{
+    /* width: 300px !important;
+    margin-left: 200px; */
+}
+
+.pricing{
+    background-color: #7e76f915;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .content2,.content-text-2{
+        width: 100% !important;
+    }
+}
